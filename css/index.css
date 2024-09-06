@@ -1,9 +1,33 @@
 body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
-table{
-  width: 100%;
+h1 {
+  font-size: 60px;
+}
+
+.title {
+  top: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+table {
+  width: 95%;
+  table-layout: fixed;
+}
+
+th {
+  font-size: 40px;
+}
+
+td {
+  padding: 1%;
+  font-size: 25px;
 }
