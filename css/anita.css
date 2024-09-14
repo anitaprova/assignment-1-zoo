@@ -1,10 +1,16 @@
 body {
   margin: 0px;
   background-color: rgb(15, 15, 69);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .content {
-  background-image: url(/sea.jpg);
+  background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(/sea.jpg);
   text-align: center;
   color: rgb(255, 255, 255);
   padding: 1%;
@@ -12,7 +18,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 img {
@@ -29,6 +35,34 @@ a {
   font-size: 30px;
 }
 
+li {
+  display: inline;
+  border-radius: 15px;
+  padding: 1%;
+  text-align: center;
+  font-size: 5px;
+  min-width: 20%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 1%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+
 p{
   font-size: 30px;
 }
@@ -42,7 +76,7 @@ p{
 
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 5%;
+  margin-top: 3%;
   text-align: center;
 }
 
