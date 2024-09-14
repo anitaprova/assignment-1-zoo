@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  background-color: rgb(32, 32, 137);
+}
+
+.content {
+  background-image: url(/sea.jpg);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 1%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 2;
+  column-gap: 25px;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
