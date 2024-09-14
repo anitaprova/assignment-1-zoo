@@ -1,7 +1,9 @@
 html,
 body {
   height: 100%;
-	overflow: hidden;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
@@ -15,12 +17,13 @@ img {
   height: auto;
   margin-left: 5%;
   border-radius: 15px;
-	filter: brightness(75%);
+  filter: brightness(75%);
+  border: 8px solid #e7c799;
 }
 
 h1 {
-  font-size: 40px;
-  color: rgb(240, 233, 193);
+  font-size: 50px;
+  color: #e7c799;
   text-align: center;
 }
 
@@ -43,7 +46,7 @@ ul {
 a {
   text-decoration: none;
   color: #e7c799;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .header {
@@ -51,12 +54,14 @@ a {
   margin: 0;
   padding: 0;
   position: absolute;
-	left:0px;
+  left: 0px;
 
   top: 0px;
-	width: 100%;
+  width: 100%;
   padding-bottom: 1%;
   margin-bottom: 3%;
+
+  border-bottom: 10px solid #ab8d62;
 }
 
 .content {
@@ -65,11 +70,12 @@ a {
 
   color: #e7c799;
   background-color: rgba(19, 30, 50, 0.9);
-	font-size: 20px;
+  font-size: 22px;
+  text-decoration: none;
 
   padding: 2%;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 15%;
-	border-radius: 15px;
+  border-radius: 15px;
 }
