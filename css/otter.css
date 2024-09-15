@@ -2,12 +2,14 @@ body {
   height: 100%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: rgb(124, 126, 128);
+  background-color: rgb(197, 197, 197);
 }
 
 h1{
-	font-size: 45px;
+	font-size: 55px;
 	color: white;
+	font-family: "Love Ya Like A Sister", cursive;
+
 }
 
 .header-title img {
@@ -42,7 +44,7 @@ a {
 }
 
 .header {
-  border-bottom: 5px solid rgb(86, 86, 86);
+  border-bottom: 6px solid rgb(86, 86, 86);
   position: absolute;
   margin: 0;
   padding: 0;
@@ -73,21 +75,24 @@ a {
 	filter: grayscale(80%);
 	border-radius: 50%;
 	background-color: rgb(212, 212, 212);
-	margin-top: 5%;
+	margin-top: 10%;
+	height: 100px;
+	width:100px;
 }
 
 .content{
   display: flex;
 	justify-content: space-between;
-	background-color: rgba(197, 197, 197, 0.9);
+	background-color: rgb(124, 126, 128);
   font-size: 25px;
   text-decoration: none;
-
+	color:rgb(255, 255, 255);
   padding: 2%;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 20%;
   border-radius: 15px;
+	filter: drop-shadow(5px 5px #3b3b3b);
 }
 
 .content img{
