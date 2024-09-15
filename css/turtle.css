@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: rgba(0, 18, 38, 0.444) url("/img/coral-reef.jpg");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin-left: 5%;
+  border-radius: 75%;
+  object-fit: cover;
+  border: 5px solid rgb(190, 255, 233);
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(190, 255, 233);
+}
+
+li {
+  display: inline;
+  padding: 1%;
+}
+
+li :hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(190, 255, 233);
+}
+
+p {
+  color: rgb(4, 15, 43);
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0px;
+
+  top: 0px;
+  width: 100%;
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 24px;
+  text-decoration: none;
+
+  padding: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+  border-radius: 15px;
+
+  background-color: rgba(97, 170, 215, 0.7);
+  backdrop-filter: blur(3px);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
