@@ -94,5 +94,5 @@ body {
   
   /* Adjust text visibility on hover */
   .circle:hover p {
-    color: lightgray;
+    color: rgb(0, 0, 0);
   }
