@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #8b4701;
+    background-color: #505e66;
     color: white;
     text-align: center;
   }
@@ -10,7 +10,7 @@ body {
 
 /* Navbar styles */
 nav {
-    background-color: rgb(0, 0, 0); /* Semi-transparent background */
+    background-color: #243640;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -28,7 +28,7 @@ nav {
   }
  
   nav ul li a {
-    color: #d8c1b8;
+    color: #d3d7d9;
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
@@ -38,7 +38,7 @@ nav {
   }
  
   nav ul li a:hover {
-    border: 2px solid #ffffffd0;
+    border: 2px solid #d3d7d9;
    
   }
 
@@ -48,14 +48,14 @@ nav {
     color: #ffffffd0;
   }
 
-  .tiger-section {
+  .elephant-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
   }
   
-  .tiger-container {
+  .elephant-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -64,7 +64,7 @@ nav {
   
   }
   
-  .tiger-img {
+  .elephant-img {
     max-width: 40%;
     height: auto;
     border-radius: 10px;
@@ -72,13 +72,13 @@ nav {
     margin-right: 20px;
   }
   
-  .tiger-description {
+  .elephant-description {
     max-width: 40%;
     font-size: 1.2em;
     line-height: 1.5;
-    color: #d8c1b8;
+    color: #d3d7d9;
     text-align: justify;
-    background-color: #000000;
+    background-color: #243640;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
