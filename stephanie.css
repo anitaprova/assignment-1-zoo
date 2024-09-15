@@ -1,18 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
 
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(15, 15, 69);
 }
-.container {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url(/desert.jpg));
+
+
+.content {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("img/Sahara-Desert-sunset.jpg.webp");
     background-position: center;
     background-size: cover;
-
-
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 2%;
 }
 
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #e1a35c;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #d1914e;
+}
+
+/* Grid layout for animal cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 5%;
+}
+
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.link img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid #e1a35c;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgba(228, 181, 39, 0.897);
+    font-size: 24px;
+    margin-top: 10px;
+}
 
 
