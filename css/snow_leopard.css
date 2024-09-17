@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #d6d6d6;
+    color: white;
+    text-align: center;
+  }
+
+
+/* Navbar styles */
+nav {
+    background-color: #afe2ea;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+ 
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+ 
+  nav ul li a {
+    color: #2b2b2b;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 4px solid transparent;
+    transition: border 0.3s ease;
+    font-size: 20px;
+  }
+ 
+  nav ul li a:hover {
+    border: 2px solid #2b2b2b;
+   
+  }
+
+  header h1{
+    font-family: "Rye";
+    font-size: 50px;
+    color: #2b2b2b;
+  }
+
+  .snow_leopard-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .snow_leopard-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  
+  }
+  
+  .snow_leopard-img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+  }
+  
+  .snow_leopard-description {
+    max-width: 40%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #2b2b2b;
+    text-align: justify;
+    background-color: #afe2ea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
