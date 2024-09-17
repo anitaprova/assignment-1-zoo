@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.header {
+    text-align: center;
+}
+
+/* Meerkat page title  */
+h1 {
+    font-size: 90px; 
+    margin-bottom: 20px;
+}
+
+/* Start of navigation button styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #e1a35c;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #d1914e;
+}
+
+/* End of navigation button styling */
+
+/* Background image */
+.content {
+    background:
+        linear-gradient(rgba(231, 92, 92, 0.5), rgba(105, 102, 102, 0.5)),
+        url('img/Meerkat_group.jpg'); 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Black box containing bilby image and information */
+.paragraph-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgba(69, 48, 48, 0.5); 
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Used for running bilby image */
+.meerkat-image {
+    max-width: 540px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Used for bullet points */
+.meerkat-bullets {
+    list-style-type: disc;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* navigation buttons : Home, Meerkat, Beardie, Camel*/
+nav ul li {
+    margin: 0 20px;
+}
