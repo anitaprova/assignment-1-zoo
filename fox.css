@@ -75,7 +75,7 @@ body {
   }
   #text{
     margin-top: 5em;
-    margin-left:4em;
+    margin-left: 1em;
   }
   @media (min-width: 680px) {
     .navbar {
