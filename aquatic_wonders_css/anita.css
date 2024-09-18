@@ -10,7 +10,7 @@ body {
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
         ),
-        url('/aquatic_wonders_img/sea.jpg');
+        url('../aquatic_wonders_img/sea.jpg');
   text-align: center;
   color: rgb(255, 255, 255);
   padding: 1%;
