@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  background: rgba(0, 18, 38, 0.444) url("/img/coral-reef.jpg");
+  background: rgba(0, 18, 38, 0.444) url('/aquatic_wonders_img/coral-reef.jpg');
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
