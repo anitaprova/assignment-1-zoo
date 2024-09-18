@@ -40,6 +40,8 @@ body {
     margin-top: 0%;
   }
   .lBox {
+    display: inline-block;
+    justify-content: space-between;
     background-color: rgba(0, 147, 255, 0.2);
     width: 10em;
     border-radius: 15px;
