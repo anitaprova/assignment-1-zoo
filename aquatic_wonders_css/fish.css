@@ -6,7 +6,7 @@ body {
 
 body {
 	background-color: rgba(0, 0, 128, 0.66);
-	background-image: url('/aquatic_wonders_img/fish_wallpaper.jpg');
+	background-image: url('../aquatic_wonders_img/fish_wallpaper.jpg');
 	background-blend-mode:color-dodge;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -62,7 +62,7 @@ a {
   padding-bottom: 1%;
   margin-bottom: 5%;
 
-	background-image: url('/aquatic_wonders_img/fish_wallpaper.jpg');
+	background-image: url('../aquatic_wonders_img/fish_wallpaper.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
