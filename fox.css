@@ -10,14 +10,10 @@ body {
     background-color: #072128;
     background-size: cover;
   }
-  a{
-    text-decoration: none;
-  }
   
   a:hover {
     cursor: pointer;
     background-color: #b4b2b4;
-    text-decoration: none;
   }
   a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -54,13 +50,9 @@ body {
   }
   .content {
     display: flex;
-    /* justify-content: space-between; */
-  
-    color: #e7c799;
-    background-color: rgba(19, 30, 50, 0.9);
+    justify-content: space-between;
     font-size: 22px;
     text-decoration: none;
-  
     padding: 2%;
     margin-left: 1%;
     margin-right: 1%;
@@ -73,19 +65,17 @@ body {
     font-size: 40px;
   }
   
-  a {
-    color: inherit;
-  }
-  
-  /* rgb(98, 141, 217) */
   #fox{
     background-color: rgba(14, 106, 171, 0.2);
     text-align: center;
-    /* margin-left: 50px; */
     color: steelblue;
     border-style: solid;
     border-color: steelblue;
   
+  }
+  #text{
+    margin-top: 5em;
+    margin-left:4em;
   }
   @media (min-width: 680px) {
     .navbar {
