@@ -89,6 +89,11 @@ a {
   background-color: rgb(93, 47, 15);
   color: white;
 }
+/* rgb(98, 141, 217) */
+#fox{
+  background-color: rgba(0, 147, 255, 0.2);
+  color: white;
+}
 /*https://www.treehugger.com/thmb/ThPy_uUCCbV3okq_Dc23cmPVKJg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/tundra-58bf1be55f9b58af5cc29755.jpg */
 .tundra {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://jeevoka.com/story-images/277-146822b9-1bc5-4a48-ac3a-c3fd3bf33b03.jpg');
