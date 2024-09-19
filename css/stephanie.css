@@ -9,7 +9,7 @@ body {
 .content {
     background:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url();
+        url('../desert-animal-img/Sahara-Desert-sunset.jpg.webp');
     background-position: center;
     background-size: cover;
     height: 100vh;

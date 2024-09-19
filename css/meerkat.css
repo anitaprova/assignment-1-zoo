@@ -45,7 +45,7 @@ nav a:hover {
 .content {
     background:
         linear-gradient(rgba(231, 92, 92, 0.5), rgba(105, 102, 102, 0.5)),
-        url('img/Meerkat_group.jpg'); 
+        url('../desert-animal-img/Meerkat_group.jpg'); 
     background-position: center;
     background-size: cover;
     height: 100vh;
