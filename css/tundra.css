@@ -68,6 +68,13 @@ body {
   }
   
   .link {
+    /* display: grid; */
+    border-radius: 10px;
+    font-size: 40px;
+    
+  }
+  .tbox
+  {
     border-radius: 10px;
     font-size: 40px;
   }
