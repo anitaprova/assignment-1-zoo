@@ -1,6 +1,7 @@
 body {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  background-color: #bee9b8;
 }
 header {
   height: 20rem;
@@ -14,21 +15,27 @@ a{
 
 a:hover {
   cursor: pointer;
-  background-color: #b4b2b4;
+  background-color: #ffffff;
   text-decoration: none;
+  
 }
 a, a:hover, a:focus, a:active {
   text-decoration: none;
-  color: inherit;
+  color:#000000;
 }
 h1 {
   font-size: 60px;
+  font-family: fantasy;
+  font-weight: 100;
 }
-h2 {
-  font-size: 40px;
+h3 {
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
 }
 p {
   font-size: 20px;
+  
 }
 img {
   width: 100%;
@@ -64,6 +71,7 @@ img {
 .link {
   border-radius: 10px;
   font-size: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 a {
