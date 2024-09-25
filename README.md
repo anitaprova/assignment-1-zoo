@@ -1,9 +1,8 @@
 # zoo-starter-code
 
-This repository is the starter code for Assignment 1 - Zoo.
+Team Members (and GitHub Usernames): Anita Prova (anitaprova), Iman Ikram (ImanIkram), Tesneem Essa (TesneemE), Stephanie Njoku (stephxsb)
 
-### Live Link
-[Website link](https://johnnylaicode.github.io/zoo-starter-code/)
+This repository is the code for Assignment 1 - Zoo.
 
 ### Our Live Link
 [Website link](https://anitaprova.github.io/assignment-1-zoo/index.html)
